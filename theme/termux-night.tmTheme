@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key><string>termux-night</string>
+  <key>settings</key>
+  <array>
+    <dict><key>settings</key><dict>
+      <key>background</key><string>#111827</string>
+      <key>foreground</key><string>#E5E7EB</string>
+      <key>caret</key><string>#F9FAFB</string>
+      <key>selection</key><string>#374151</string>
+      <key>lineHighlight</key><string>#1F2937</string>
+    </dict></dict>
+    <dict><key>scope</key><string>comment, punctuation.definition.comment</string><key>settings</key><dict><key>foreground</key><string>#94A3B8</string><key>fontStyle</key><string>italic</string></dict></dict>
+    <dict><key>scope</key><string>string, punctuation.definition.string</string><key>settings</key><dict><key>foreground</key><string>#A7F3D0</string></dict></dict>
+    <dict><key>scope</key><string>keyword, storage, entity.name.tag</string><key>settings</key><dict><key>foreground</key><string>#C4B5FD</string></dict></dict>
+    <dict><key>scope</key><string>constant, constant.numeric, constant.language</string><key>settings</key><dict><key>foreground</key><string>#FCA5A5</string></dict></dict>
+    <dict><key>scope</key><string>entity.name.function, support.function</string><key>settings</key><dict><key>foreground</key><string>#93C5FD</string></dict></dict>
+    <dict><key>scope</key><string>entity.name.type, support.type, entity.name.class</string><key>settings</key><dict><key>foreground</key><string>#FCD34D</string></dict></dict>
+    <dict><key>scope</key><string>markup.heading</string><key>settings</key><dict><key>foreground</key><string>#67E8F9</string><key>fontStyle</key><string>bold</string></dict></dict>
+  </array>
+</dict>
+</plist>
